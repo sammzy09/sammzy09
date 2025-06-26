@@ -25,7 +25,7 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline;
+    display: inline-block;
     margin: 0 15px;
 }
 
@@ -79,12 +79,36 @@ ul li {
     text-decoration: underline;
 }
 
+
+#contact{
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#contact ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#contact ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}   
+
 /* Footer styles */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: 20px;
     position: fixed;
     width: 100%;
     bottom: 0;
